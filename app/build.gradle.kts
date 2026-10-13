@@ -1,9 +1,10 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    // NOTE: the kapt version is declared explicitly here (1.9.22).
-    // CI builds (GitHub Actions) fail if kapt is applied without a version.
-    id("org.jetbrains.kotlin.kapt") version "1.9.22"
+    // The kapt version is declared once in the root build file (apply false).
+    // Re-declaring a version here breaks the CI build ("plugin already on the
+    // classpath must not include a version"), so apply it version-less.
+    id("org.jetbrains.kotlin.kapt")
 }
 
 android {
