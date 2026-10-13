@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AttendX</string>
+
+    <!-- Main screen -->
+    <string name="add_subject">Add subject</string>
+    <string name="edit_subject">Edit subject</string>
+    <string name="empty_list_hint">No subjects yet.\nTap + to add your first subject.</string>
+
+    <!-- List row -->
+    <string name="counts_format">Present: %1$d · Absent: %2$d</string>
+    <string name="classes_per_week_format">%1$d classes/week</string>
+
+    <!-- Statuses -->
+    <string name="status_safe">SAFE</string>
+    <string name="status_at_risk">AT RISK</string>
+    <string name="status_below">BELOW TARGET</string>
+
+    <!-- Detail screen -->
+    <string name="code_format">Code: %1$s</string>
+    <string name="target_format">Target: %1$s%%</string>
+    <string name="can_miss_format">You can still miss %1$d more classes.</string>
+    <string name="mark_present">Mark Present</string>
+    <string name="mark_absent">Mark Absent</string>
+
+    <!-- Dialog -->
+    <string name="hint_subject_name">Subject name</string>
+    <string name="hint_subject_code">Short code (e.g. DM)</string>
+    <string name="hint_classes_per_week">Classes per week</string>
+    <string name="hint_target_percent">Target % (default 75)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="delete_title">Delete subject?</string>
+    <string name="delete_message">Delete %1$s and all its attendance data? This cannot be undone.</string>
+
+    <!-- Validation -->
+    <string name="error_name_required">Please enter a subject name.</string>
+    <string name="error_code_required">Please enter a short code.</string>
+    <string name="error_classes_per_week">Classes per week must be at least 1.</string>
+    <string name="error_target_range">Target must be between 1 and 100.</string>
+</resources>

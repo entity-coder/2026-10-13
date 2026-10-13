@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Attendance status colors -->
+    <color name="status_safe">#2E7D32</color>
+    <color name="status_at_risk">#F9A825</color>
+    <color name="status_below">#C62828</color>
+
+    <!-- App primary (deep teal) -->
+    <color name="color_primary">#00695C</color>
+    <color name="color_primary_dark">#004D40</color>
+    <color name="color_accent">#26A69A</color>
+</resources>
